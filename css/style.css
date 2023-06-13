@@ -1,0 +1,147 @@
+body {
+    background-image: url(../img/background-cesped.jpg);
+} 
+
+
+.offcanvas {
+    background-color: white;
+}
+
+
+.nav-item:hover {
+    background-color: rgba(0, 0, 243, 0.678);
+    border-radius: 3%;
+    text-align: center;
+}
+
+.container-fluid {
+    background-color: rgba(250, 166, 10, 0.74);
+}
+
+.img-adn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+    background-color: rgba(250, 166, 10, 0.74);
+}
+
+img {
+    width: 350px;
+    height: 350px;
+   
+}
+
+.escudos {
+    display: grid;
+    grid-template-areas:
+    'escudos escudos escudos'
+    'escudos escudos escudos'
+    'escudos escudos escudos';
+}
+.div {
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*footer {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fot {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+.par {
+    display: flex;
+    align-items: center;
+}*/
+
+
+/* Primera */
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #007132;
+    border: solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+    color: aliceblue;
+}
+
+.sub-caja {
+    display: block;
+    padding-left: 900px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: seagreen;
+    color: white;
+}
+
+.caja-img {
+    height: 90px;
+    width: 90px;
+}
+
+table {
+    width: 700px;
+    margin-right: 200px;
+    margin-left: 600px;
+    margin-top: 30px;
+    text-align: center;
+    border-collapse: separate;
+    background: #797979;
+   
+}
+
+.encabezado {
+    background-color: black;
+    color: white;
+}
+
+tr {
+    background-color: rgb(233, 227, 219);
+}
+
+.pos-1 {
+    background-color: #03b653;
+}
+.pos-2 {
+    background-color: #03b653;
+}
+.pos-3 {
+    background-color: rgb(236, 236, 52);
+}
+.pos-4 {
+    background-color: rgb(236, 236, 52);
+}
+.pos-5 {
+    background-color: rgb(236, 236, 52);
+}
+.pos-6 {
+    background-color: rgb(236, 236, 52);
+}
+
+.img-tabla {
+    width: 25px;
+    height: 25px;
+}
