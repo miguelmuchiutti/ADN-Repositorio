@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/background-cesped.jpg);
+    background-image: url(../img/10239.jpg);
 } 
 
 
@@ -29,8 +29,7 @@ body {
 
 img {
     width: 350px;
-    height: 350px;
-   
+    height: 350px;  
 }
 
 .escudos {
@@ -55,22 +54,42 @@ img {
     justify-content: space-around;
 }
 
-/*footer {
+footer {
     background-color: rgba(0, 0, 0, 0.651);
-    color: white;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 100px;
 }
 
-.fot {
-    width: 60px;
-    height: 60px;
-    margin-left: 30px;
+.pie-pagina {
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
-.par {
+.div-pie {
+    width: 70%;
+    margin-left: 300px;
     display: flex;
-    align-items: center;
-}*/
+    justify-content: center;
+    color: white;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.copyright {
+    color: white;
+    margin-left: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+
+
+.fot {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
 
 
 /* Primera */
@@ -102,11 +121,11 @@ h4 {
     width: 90px;
 }
 
-table {
-    width: 700px;
-    margin-right: 200px;
-    margin-left: 600px;
-    margin-top: 30px;
+.tabla {
+    width: 990px;
+    margin-right: 90px;
+    margin-left: 500px;
+    margin-top: 60px;
     text-align: center;
     border-collapse: separate;
     background: #797979;
@@ -145,3 +164,46 @@ tr {
     width: 25px;
     height: 25px;
 }
+.equipo-libre {
+    width: 990px;
+    margin-left: 500px;
+    text-align: center;
+    border-collapse: separate;
+    background: #797979;
+}
+
+.marcador {
+    background-color: rgb(255, 254, 254);
+}
+
+.goleador {
+    width: 490px;
+    margin-right: 90px;
+    margin-left: 750px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-collapse: separate;
+    background: #797979;
+}
+
+.gol-titulo {
+    width: 490px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-left: 750px;
+    margin-right: 90px;
+}
+
+.parrafo {
+    margin-bottom: 0;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.posi-1 {
+    background-color: #04ff75;
+}
+
+
