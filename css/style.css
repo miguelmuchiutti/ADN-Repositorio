@@ -126,10 +126,59 @@ h4 {
     width: 90px;
 }
 
+.conteiner {
+    display: flex;
+}
+
+.conteiner-tabla {
+    display: flex;
+}
+
+.cruces {
+    border-color: black;
+    background-color: #03b653;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.cruces-caja {
+    background-color: #03b653;
+    margin-top: 250px;
+    padding: 20px;
+}
+.cruces-2 {
+    border:black;
+    background-color: #03b653;
+    padding: 20px;
+    margin-top: 150px;
+}
+.cruces-caja-2 {
+    margin-top: 50px;
+    background-color: #03b653;
+    padding: 20px;
+}
+.cruces-3 {
+    border:black;
+    background-color: #03b653;
+    padding: 20px;
+    margin-top: 250px;
+}
+.img-cruce {
+    width: 60px;
+    height: 60px;
+}
+
+.marcador-cruces {
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
 .tabla {
     width: 990px;
     margin-right: 90px;
-    margin-left: 500px;
+    margin-left: 75px;
     margin-top: 60px;
     text-align: center;
     border-collapse: separate;
@@ -171,7 +220,7 @@ tr {
 }
 .equipo-libre {
     width: 990px;
-    margin-left: 500px;
+    margin-left: 75px;
     text-align: center;
     border-collapse: separate;
     background: #797979;
