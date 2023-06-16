@@ -18,6 +18,11 @@ body {
     background-color: rgba(250, 166, 10, 0.74);
 }
 
+.img-carousel {
+    width: 800px;
+    height: 400px;
+}
+
 .img-adn {
     width: 50px;
     height: 50px;
@@ -204,6 +209,81 @@ tr {
 
 .posi-1 {
     background-color: #04ff75;
+}
+
+/* INICIO */
+@media screen and (max-width: 420px) {
+    .carousel-inner {
+        width: 80%;
+    }
+    .img-carousel {
+        width: 250px;
+        height: 250px;
+    }
+    .escudos {
+        display: grid;
+        grid-template-areas:
+        'escudos escudos'
+        'escudos escudos'
+        'escudos escudos'
+        'escudos escudos'
+        'escudos' ;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    .div {
+        margin-top: 90px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .div-pie {
+        width: 80%;
+        margin-left: 30px;
+    }
+    .pie-pagina {
+        font-size: 10px;
+    }
+    .footer {
+        height: 120px;
+    }
+    .fot {
+        width: 10px;
+        height: 10px;
+        margin-top: 35px;
+    }
+    .copyright {
+        margin-left: 80px;
+        font-size: 10px;
+    }
+}    
+
+/* PRIMERA */
+@media screen and (max-width: 420px) {
+    .sub-caja {
+        padding-left: 170px;
+    }
+    .tabla {
+        width: 394px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .equipo-libre {
+        width: 394px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .gol-titulo {
+        width: 394px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .goleador {
+        width: 394px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
 }
 
 
