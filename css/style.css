@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/10239.jpg);
+    background-image: url(../img/depositphotos_331028182-stock-photo-seamless-texture-of-artificial-green.jpg);
 } 
 
 
@@ -175,6 +175,48 @@ h4 {
     color: white;
 }
 
+.conector {
+    width: 40px;
+    height: 100px;
+    margin-top: 110px; 
+    border: solid orange;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+.conector-2 {
+    width: 12px;
+    height: 0px; 
+    margin-top: 206px; 
+    border: 2px solid orange;
+}
+.conector-3 { 
+    width: 40px;
+    height: 110px;
+    margin-top: 170px; 
+    border: solid orange;
+    border-left-style: none;
+    border-top-style: none;
+}
+.conector-4 {
+    width: 12px;
+    height: 0px; 
+    margin-top: 170px; 
+    border: 2px solid orange;
+} 
+.conector-5 {
+    width: 40px;
+    height: 180px;
+    margin-top: 206px;
+    border: solid orange;
+    border-left-style: none;
+}
+.conector-6 {
+    width: 12px;
+    height: 0px; 
+    margin-top: 300px; 
+    border: 2px solid orange;
+}
+
 .tabla {
     width: 990px;
     margin-right: 90px;
@@ -343,6 +385,25 @@ tr {
     .cruces-caja {
         padding: 5px;
     }
+    .conector {
+        margin-top: 90px; 
+    }
+    .conector-2 {
+        margin-top: 186px;
+    }
+    .conector-3 {
+        margin-top: 120px;
+    }
+    .conector-4 {
+        margin-top: 120px;
+    }
+    .conector-5 {
+        height: 140px;
+        margin-top: 180px;
+    }
+    .conector-6 {
+        margin-top: 250px;
+    }
     .img-cruce {
         width: 40px;
         height: 40px;
@@ -355,9 +416,10 @@ tr {
     }
     .cruces-3 {
         padding: 5px;
+        margin-top: 210px;
     }
     .gol-titulo {
-        margin-left: 9px;
+        margin-left: 6px;
     }
     .goleador {
         margin-left: 5px;
