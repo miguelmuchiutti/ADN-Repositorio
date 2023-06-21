@@ -10,6 +10,7 @@ body {
 
 .nav-item:hover {
     background-color: rgba(0, 0, 243, 0.678);
+    color: white;
     border-radius: 3%;
     text-align: center;
 }
@@ -479,4 +480,35 @@ tr {
         margin-left: 5px;
     }
 
+}
+
+/* SUB-23 */
+
+@media screen and (max-width: 420px) {
+    .cruces-2- {
+        padding: 20px;
+    }
+    .cruces-caja-2- {
+        padding: 20px;
+    }
+    .cruces-3- {
+        padding: 20px;
+        margin-top: 130px;
+    }
+
+    .img-cruce- {
+        width: 60px;
+        height: 60px;
+    }
+
+    .conector-5- {
+        width: 40px;
+        height: 180px;
+        margin-top: 120px;
+    }
+    .conector-6- {
+        width: 12px;
+        height: 0px; 
+        margin-top: 190px; 
+    }
 }
