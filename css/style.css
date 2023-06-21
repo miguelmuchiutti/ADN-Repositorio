@@ -302,6 +302,60 @@ tr {
     background-color: #04ff75;
 }
 
+/* SUB-23 */
+
+.pos-1- {
+    background-color: rgb(236, 236, 52);
+}
+.pos-2- {
+    background-color: rgb(236, 236, 52);
+}
+
+.cruces-2- {
+    border:black;
+    background-color: #03b653;
+    padding: 50px;
+    margin-top: 50px;
+}
+.cruces-caja-2- {
+    margin-top: 50px;
+    background-color: #03b653;
+    padding: 50px;
+}
+.cruces-3- {
+    border:black;
+    background-color: #03b653;
+    padding: 50px;
+    margin-top: 180px;
+
+}
+
+.img-cruce- {
+    width: 80px;
+    height: 80px;
+}
+
+.marcador-cruces- {
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
+.conector-5- {
+    width: 40px;
+    height: 280px;
+    margin-top: 140px;
+    border: solid orange;
+    border-left-style: none;
+}
+.conector-6- {
+    width: 12px;
+    height: 0px; 
+    margin-top: 280px; 
+    border: 2px solid orange;
+}
+
 /* INICIO */
 @media screen and (max-width: 420px) {
     .carousel-inner {
